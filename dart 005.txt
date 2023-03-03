@@ -1,0 +1,15 @@
+
+//OPTIONAL DEFAULT PARAMETERS
+
+
+int findVolume(int length, int breadth, { int height = 10 } ) {   //height= 10 isn your defaultparameter
+	return length*breadth*height;
+}
+
+var result = findVolume(2, 3);
+print(result);  //2*3*10 = 60  it prints out the coorrect value even without the use of height because it has alrerady been assigned as adefault parameter
+
+var result = findVolume(2, 3 height: 20);		//overides the default value of height
+print(result);
+ // 2*3*20 = 120
+//
