@@ -1,0 +1,30 @@
+// using the continue keyword
+// when you a code .....
+
+void main() {
+
+
+
+}
+
+	for (int i = 1; i<= 10; i++){
+
+		if (i == 5){
+                    continue;
+		}
+		print(i);
+	}
+// he continue keyword is saying that when this code is run ..it should skip the number 5 and continue till it reaches 10
+// to print out odd numbers
+
+
+
+	for (int i = 1; i<= 10; i++){
+
+		if (i % 2== 0){
+                    continue;
+		}
+		print(i);
+	}
+// the continue keyword is saying skip the print statement and continue 
+
